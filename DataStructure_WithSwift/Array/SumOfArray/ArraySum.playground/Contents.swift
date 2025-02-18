@@ -14,16 +14,12 @@ struct SumArrayElement {
         return  sum
         
     }
-    
-    
-    
+ 
 }
 var array = [3,4,5,3,5]
 //var sumValue = SumArrayElement()
 var getArraySumValue = SumArrayElement().getSumValue(array)
 print( getArraySumValue )
-
-
-
-//Time Complexity: ( O(n) )
-//Space Complexity: ( O(1) )
+ 
+//Time Complexity: ( O(n))
+//Space Complexity: (O(1))

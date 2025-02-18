@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7E9A3382D63826E00C3F6E4 /* DataStructure_WithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructure_WithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E9A33B2D63826E00C3F6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7E9A33D2D63826E00C3F6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,12 +82,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C73CAE382D64E16A00F23F2B /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C7E9A34C2D63827000C3F6E4 /* Info.plist */,
+				C7E9A3472D63827000C3F6E4 /* Assets.xcassets */,
+				C7E9A33F2D63826E00C3F6E4 /* ViewController.swift */,
+				C7E9A3492D63827000C3F6E4 /* LaunchScreen.storyboard */,
+				C7E9A3412D63826E00C3F6E4 /* Main.storyboard */,
+				C7E9A33D2D63826E00C3F6E4 /* SceneDelegate.swift */,
+				C7E9A33B2D63826E00C3F6E4 /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		C73CAE392D64E1B800F23F2B /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				C7E9A3442D63826E00C3F6E4 /* DataStructure_WithSwift.xcdatamodeld */,
+				C7E9A35E2D63827000C3F6E4 /* DataStructure_WithSwiftUITests */,
+				C7E9A3542D63827000C3F6E4 /* DataStructure_WithSwiftTests */,
+			);
+			path = LocalData;
+			sourceTree = "<group>";
+		};
+		C73CAE3A2D64E1DF00F23F2B /* SecondLargestValueArray */ = {
+			isa = PBXGroup;
+			children = (
+				C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */,
+			);
+			path = SecondLargestValueArray;
+			sourceTree = "<group>";
+		};
 		C7E9A32F2D63826E00C3F6E4 = {
 			isa = PBXGroup;
 			children = (
 				C7E9A33A2D63826E00C3F6E4 /* DataStructure_WithSwift */,
-				C7E9A3542D63827000C3F6E4 /* DataStructure_WithSwiftTests */,
-				C7E9A35E2D63827000C3F6E4 /* DataStructure_WithSwiftUITests */,
 				C7E9A3392D63826E00C3F6E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,15 +135,9 @@
 		C7E9A33A2D63826E00C3F6E4 /* DataStructure_WithSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C73CAE392D64E1B800F23F2B /* LocalData */,
+				C73CAE382D64E16A00F23F2B /* Appdelegate */,
 				C7E9A36E2D63BCEF00C3F6E4 /* Array */,
-				C7E9A33B2D63826E00C3F6E4 /* AppDelegate.swift */,
-				C7E9A33D2D63826E00C3F6E4 /* SceneDelegate.swift */,
-				C7E9A33F2D63826E00C3F6E4 /* ViewController.swift */,
-				C7E9A3412D63826E00C3F6E4 /* Main.storyboard */,
-				C7E9A3472D63827000C3F6E4 /* Assets.xcassets */,
-				C7E9A3492D63827000C3F6E4 /* LaunchScreen.storyboard */,
-				C7E9A34C2D63827000C3F6E4 /* Info.plist */,
-				C7E9A3442D63826E00C3F6E4 /* DataStructure_WithSwift.xcdatamodeld */,
 			);
 			path = DataStructure_WithSwift;
 			sourceTree = "<group>";
@@ -137,18 +162,19 @@
 		C7E9A36E2D63BCEF00C3F6E4 /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				C7E9A36F2D63BCFA00C3F6E4 /* SumOFArray */,
+				C7E9A36F2D63BCFA00C3F6E4 /* SumOfArray */,
+				C73CAE3A2D64E1DF00F23F2B /* SecondLargestValueArray */,
 			);
 			path = Array;
 			sourceTree = "<group>";
 		};
-		C7E9A36F2D63BCFA00C3F6E4 /* SumOFArray */ = {
+		C7E9A36F2D63BCFA00C3F6E4 /* SumOfArray */ = {
 			isa = PBXGroup;
 			children = (
 				C7E9A3702D63BD1200C3F6E4 /* SumOFArray.swift */,
 				C7E9A3722D63BE6B00C3F6E4 /* ArraySum.playground */,
 			);
-			path = SumOFArray;
+			path = SumOfArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
