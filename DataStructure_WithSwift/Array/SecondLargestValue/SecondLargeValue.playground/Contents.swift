@@ -2,7 +2,7 @@ import UIKit
 
  
 
-//Given an array of positive integers arr[] of size n, the task is to find second largest distinct element in the array.
+//QUESTION __ Given an array of positive integers arr[] of size n, the task is to find second largest distinct element in the array.
 
 
 struct SecondLargeElement {
@@ -19,7 +19,7 @@ struct SecondLargeElement {
                 firstMax = value
                 
             }
-            else if value > secondMax {
+            else if value > secondMax  && value < firstMax {
                 secondMax = value
             }
         }

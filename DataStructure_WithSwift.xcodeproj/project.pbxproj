@@ -17,7 +17,6 @@
 		C7E9A3562D63827000C3F6E4 /* DataStructure_WithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9A3552D63827000C3F6E4 /* DataStructure_WithSwiftTests.swift */; };
 		C7E9A3602D63827000C3F6E4 /* DataStructure_WithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9A35F2D63827000C3F6E4 /* DataStructure_WithSwiftUITests.swift */; };
 		C7E9A3622D63827000C3F6E4 /* DataStructure_WithSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9A3612D63827000C3F6E4 /* DataStructure_WithSwiftUITestsLaunchTests.swift */; };
-		C7E9A3712D63BD1200C3F6E4 /* SumOFArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9A3702D63BD1200C3F6E4 /* SumOFArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlterNetElementPrint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7E9A3382D63826E00C3F6E4 /* DataStructure_WithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructure_WithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E9A33B2D63826E00C3F6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7E9A33D2D63826E00C3F6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +53,6 @@
 		C7E9A35B2D63827000C3F6E4 /* DataStructure_WithSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructure_WithSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E9A35F2D63827000C3F6E4 /* DataStructure_WithSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure_WithSwiftUITests.swift; sourceTree = "<group>"; };
 		C7E9A3612D63827000C3F6E4 /* DataStructure_WithSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure_WithSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C7E9A3702D63BD1200C3F6E4 /* SumOFArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOFArray.swift; sourceTree = "<group>"; };
 		C7E9A3722D63BE6B00C3F6E4 /* ArraySum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArraySum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -106,12 +105,20 @@
 			path = LocalData;
 			sourceTree = "<group>";
 		};
-		C73CAE3A2D64E1DF00F23F2B /* SecondLargestValueArray */ = {
+		C73CAE3A2D64E1DF00F23F2B /* SecondLargestValue */ = {
 			isa = PBXGroup;
 			children = (
 				C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */,
 			);
-			path = SecondLargestValueArray;
+			path = SecondLargestValue;
+			sourceTree = "<group>";
+		};
+		C73CAE3C2D6512CD00F23F2B /* AlterNetElement */ = {
+			isa = PBXGroup;
+			children = (
+				C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */,
+			);
+			path = AlterNetElement;
 			sourceTree = "<group>";
 		};
 		C7E9A32F2D63826E00C3F6E4 = {
@@ -163,7 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				C7E9A36F2D63BCFA00C3F6E4 /* SumOfArray */,
-				C73CAE3A2D64E1DF00F23F2B /* SecondLargestValueArray */,
+				C73CAE3A2D64E1DF00F23F2B /* SecondLargestValue */,
+				C73CAE3C2D6512CD00F23F2B /* AlterNetElement */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -171,7 +179,6 @@
 		C7E9A36F2D63BCFA00C3F6E4 /* SumOfArray */ = {
 			isa = PBXGroup;
 			children = (
-				C7E9A3702D63BD1200C3F6E4 /* SumOFArray.swift */,
 				C7E9A3722D63BE6B00C3F6E4 /* ArraySum.playground */,
 			);
 			path = SumOfArray;
@@ -308,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E9A3712D63BD1200C3F6E4 /* SumOFArray.swift in Sources */,
 				C7E9A3402D63826E00C3F6E4 /* ViewController.swift in Sources */,
 				C7E9A33C2D63826E00C3F6E4 /* AppDelegate.swift in Sources */,
 				C7E9A33E2D63826E00C3F6E4 /* SceneDelegate.swift in Sources */,
