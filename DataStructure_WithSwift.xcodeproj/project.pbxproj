@@ -84,6 +84,7 @@
 		C73CAE382D64E16A00F23F2B /* Appdelegate */ = {
 			isa = PBXGroup;
 			children = (
+				C73CAE392D64E1B800F23F2B /* LocalData */,
 				C7E9A34C2D63827000C3F6E4 /* Info.plist */,
 				C7E9A3472D63827000C3F6E4 /* Assets.xcassets */,
 				C7E9A33F2D63826E00C3F6E4 /* ViewController.swift */,
@@ -124,6 +125,7 @@
 		C7E9A32F2D63826E00C3F6E4 = {
 			isa = PBXGroup;
 			children = (
+				C73CAE382D64E16A00F23F2B /* Appdelegate */,
 				C7E9A33A2D63826E00C3F6E4 /* DataStructure_WithSwift */,
 				C7E9A3392D63826E00C3F6E4 /* Products */,
 			);
@@ -142,8 +144,6 @@
 		C7E9A33A2D63826E00C3F6E4 /* DataStructure_WithSwift */ = {
 			isa = PBXGroup;
 			children = (
-				C73CAE392D64E1B800F23F2B /* LocalData */,
-				C73CAE382D64E16A00F23F2B /* Appdelegate */,
 				C7E9A36E2D63BCEF00C3F6E4 /* Array */,
 			);
 			path = DataStructure_WithSwift;
