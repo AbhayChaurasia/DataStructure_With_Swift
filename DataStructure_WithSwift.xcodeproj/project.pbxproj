@@ -38,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		C72B16B32D66238500F0C7AB /* FindLeaderElement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindLeaderElement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C72B16B52D6628CE00F0C7AB /* CheckSortedArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CheckSortedArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C72B16B72D66491700F0C7AB /* ReverseArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlterNetElementPrint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7E9A3382D63826E00C3F6E4 /* DataStructure_WithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructure_WithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +90,22 @@
 				C72B16B32D66238500F0C7AB /* FindLeaderElement.playground */,
 			);
 			path = Leader;
+			sourceTree = "<group>";
+		};
+		C72B16B42D66287800F0C7AB /* SortedArray */ = {
+			isa = PBXGroup;
+			children = (
+				C72B16B52D6628CE00F0C7AB /* CheckSortedArray.playground */,
+			);
+			path = SortedArray;
+			sourceTree = "<group>";
+		};
+		C72B16B62D66490000F0C7AB /* Reverse */ = {
+			isa = PBXGroup;
+			children = (
+				C72B16B72D66491700F0C7AB /* ReverseArray.playground */,
+			);
+			path = Reverse;
 			sourceTree = "<group>";
 		};
 		C73CAE382D64E16A00F23F2B /* Appdelegate */ = {
@@ -178,10 +196,12 @@
 		C7E9A36E2D63BCEF00C3F6E4 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C72B16B62D66490000F0C7AB /* Reverse */,
 				C7E9A36F2D63BCFA00C3F6E4 /* SumOfArray */,
 				C73CAE3A2D64E1DF00F23F2B /* SecondLargestValue */,
 				C73CAE3C2D6512CD00F23F2B /* AlterNetElement */,
 				C72B16B22D66236500F0C7AB /* Leader */,
+				C72B16B42D66287800F0C7AB /* SortedArray */,
 			);
 			path = Array;
 			sourceTree = "<group>";

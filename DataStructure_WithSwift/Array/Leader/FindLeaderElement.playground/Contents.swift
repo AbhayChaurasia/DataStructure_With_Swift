@@ -17,30 +17,34 @@ var greeting = "Hello, playground"
  Explanation: 5 is greater than all the elements to its right i.e., [2], therefore 5 is a leader. 2 has no element to its right, therefore 2 is a leader.*/
 
 struct LeaderElementPrint {
-    //first Approach ---
-    func findLeadElement(_ arr : [Int]) -> [Int]
-    {
-        guard  arr.count > 1  else {return  [0] }
-        var n = arr.count
-        var maxElement = arr[n-1]
-        var result = [Int]()
-        result.append(maxElement)
-        for i in stride(from: n-2, through : 0  , by: -1) {
+    // Function to find leader elements in the array
+    func findLeaderElements(_ arr: [Int]) -> [Int] {
+        // Check if the array is empty
+        guard !arr.isEmpty else { return [] }
+        
+        var leaders = [Int]()
+        var maxElement = arr.last! // Start with the last element as the initial max
+        
+        // Append the last element as it is always a leader
+        leaders.append(maxElement)
+        
+        // Iterate through the array in reverse order
+        for i in stride(from: arr.count - 2, through: 0, by: -1) {
             if arr[i] >= maxElement {
                 maxElement = arr[i]
-                result.append(maxElement)
+                leaders.append(maxElement)
             }
-            
-            
         }
-        return result
+        
+        // Since we collected leaders in reverse order, reverse the result before returning
+        return leaders.reversed()
     }
-    
-    
 }
-var arry = [16, 17, 4, 3, 5, 2]
-var findLeadElementArry = LeaderElementPrint().findLeadElement(arry)
-print(findLeadElementArry)
+
+// Example usage
+let array = [16, 17, 4, 3, 5, 2]
+let leaderElementsArray = LeaderElementPrint().findLeaderElements(array)
+print(leaderElementsArray) // Output: [17, 5, 2]
 
 //Output = [17 , 5, 2]
 //Time Complexity = O(n)
