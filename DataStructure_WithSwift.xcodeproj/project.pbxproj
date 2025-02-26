@@ -42,6 +42,7 @@
 		C72B16B72D66491700F0C7AB /* ReverseArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlterNetElementPrint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C7E8AB1C2D6901D300918233 /* ProductOfTriplet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProductOfTriplet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7E9A3382D63826E00C3F6E4 /* DataStructure_WithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructure_WithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E9A33B2D63826E00C3F6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7E9A33D2D63826E00C3F6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +150,14 @@
 			path = AlterNetElement;
 			sourceTree = "<group>";
 		};
+		C7E8AB1B2D69018F00918233 /* productOfTriplet */ = {
+			isa = PBXGroup;
+			children = (
+				C7E8AB1C2D6901D300918233 /* ProductOfTriplet.playground */,
+			);
+			path = productOfTriplet;
+			sourceTree = "<group>";
+		};
 		C7E9A32F2D63826E00C3F6E4 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +205,7 @@
 		C7E9A36E2D63BCEF00C3F6E4 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C7E8AB1B2D69018F00918233 /* productOfTriplet */,
 				C72B16B62D66490000F0C7AB /* Reverse */,
 				C7E9A36F2D63BCFA00C3F6E4 /* SumOfArray */,
 				C73CAE3A2D64E1DF00F23F2B /* SecondLargestValue */,
