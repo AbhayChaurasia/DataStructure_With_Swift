@@ -1,6 +1,6 @@
 import UIKit
 
-//MARK :- Second Largest Element in an Array
+//MARK :- Sum of  Element in an Array
 
 var greeting = "Hello, playground"
 struct SumArrayElement {
