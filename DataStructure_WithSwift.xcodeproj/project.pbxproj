@@ -40,6 +40,7 @@
 		C72B16B32D66238500F0C7AB /* FindLeaderElement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindLeaderElement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C72B16B52D6628CE00F0C7AB /* CheckSortedArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CheckSortedArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C72B16B72D66491700F0C7AB /* ReverseArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C7381FB12D760DEE00FDA4BA /* RotateArrayDposition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RotateArrayDposition.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlterNetElementPrint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C77B3B132D70DD2F003255CE /* ReverseInGroup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseInGroup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -108,6 +109,14 @@
 				C72B16B72D66491700F0C7AB /* ReverseArray.playground */,
 			);
 			path = Reverse;
+			sourceTree = "<group>";
+		};
+		C7381FB02D760D8D00FDA4BA /* RotateArray */ = {
+			isa = PBXGroup;
+			children = (
+				C7381FB12D760DEE00FDA4BA /* RotateArrayDposition.playground */,
+			);
+			path = RotateArray;
 			sourceTree = "<group>";
 		};
 		C73CAE382D64E16A00F23F2B /* Appdelegate */ = {
@@ -214,6 +223,7 @@
 		C7E9A36E2D63BCEF00C3F6E4 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C7381FB02D760D8D00FDA4BA /* RotateArray */,
 				C77B3B122D70DCF3003255CE /* ReverseInGroup */,
 				C7E8AB1B2D69018F00918233 /* productOfTriplet */,
 				C72B16B62D66490000F0C7AB /* Reverse */,

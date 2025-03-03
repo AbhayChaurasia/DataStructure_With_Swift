@@ -52,3 +52,10 @@ let reverseValue = ReverseInGroup().reverseArrayInGroup(arr, groupSize : 3)
 
 print(reverseValue)
 
+////var myArray = [Int]()
+////print("Address before appending: \(Unmanaged.passUnretained(myArray as NSArray).toOpaque())")
+//  var myArray = [1, 2, 3] // Initial array
+//print("Address before appending: \(Unmanaged.passUnretained(myArray as NSArray).toOpaque())")
+//
+//myArray.append(4) // Appending an element
+//print("Address after appending: \(Unmanaged.passUnretained(myArray as NSArray).toOpaque())")
