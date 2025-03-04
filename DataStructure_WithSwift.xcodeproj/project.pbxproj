@@ -43,6 +43,7 @@
 		C7381FB12D760DEE00FDA4BA /* RotateArrayDposition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RotateArrayDposition.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7381FB32D76280000FDA4BA /* WaveArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WaveArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7381FB52D776A8D00FDA4BA /* ReverseDigitArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseDigitArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C7381FB72D77821E00FDA4BA /* BuyAndSellStock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BuyAndSellStock.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlterNetElementPrint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C77B3B132D70DD2F003255CE /* ReverseInGroup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseInGroup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -135,6 +136,14 @@
 				C7381FB52D776A8D00FDA4BA /* ReverseDigitArray.playground */,
 			);
 			path = arrayinDigitIncrementByOne;
+			sourceTree = "<group>";
+		};
+		C7381FB62D77820400FDA4BA /* BuyAndSell */ = {
+			isa = PBXGroup;
+			children = (
+				C7381FB72D77821E00FDA4BA /* BuyAndSellStock.playground */,
+			);
+			path = BuyAndSell;
 			sourceTree = "<group>";
 		};
 		C73CAE382D64E16A00F23F2B /* Appdelegate */ = {
@@ -241,6 +250,7 @@
 		C7E9A36E2D63BCEF00C3F6E4 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C7381FB62D77820400FDA4BA /* BuyAndSell */,
 				C7381FB42D7769BE00FDA4BA /* arrayinDigitIncrementByOne */,
 				C7381FB22D7627BA00FDA4BA /* WaveArray */,
 				C7381FB02D760D8D00FDA4BA /* RotateArray */,
