@@ -184,6 +184,27 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>ReverseDigitArray (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>ReverseDigitArray (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>ReverseDigitArray (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>ReverseInGroup (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -288,6 +309,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>WaveArray (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>WaveArray (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>WaveArray (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 	</dict>
 </dict>
