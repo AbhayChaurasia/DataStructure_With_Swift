@@ -163,6 +163,27 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>MergeSort (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>MergeSort (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+		<key>MergeSort (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
 		<key>ProductOfTriplet (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -330,6 +351,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>SumInSingleDigit (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>SumInSingleDigit (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+		<key>SumInSingleDigit (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>21</integer>
 		</dict>
 		<key>WaveArray (Playground) 1.xcscheme</key>
 		<dict>
