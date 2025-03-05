@@ -46,6 +46,8 @@
 		C7381FB72D77821E00FDA4BA /* BuyAndSellStock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BuyAndSellStock.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7381FB92D77884400FDA4BA /* SumInSingleDigit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SumInSingleDigit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7381FBB2D78BDF200FDA4BA /* MergeSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergeSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C7381FBD2D78CB1A00FDA4BA /* RearrangeArrayPositiveNegativeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RearrangeArrayPositiveNegativeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C7381FBF2D78D3FA00FDA4BA /* PositiveNegativeArrayAlter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PositiveNegativeArrayAlter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlterNetElementPrint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C77B3B132D70DD2F003255CE /* ReverseInGroup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseInGroup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -164,6 +166,22 @@
 			path = MergeSortedArray;
 			sourceTree = "<group>";
 		};
+		C7381FBC2D78CAB500FDA4BA /* ArrayRearrangeBySign */ = {
+			isa = PBXGroup;
+			children = (
+				C7381FBD2D78CB1A00FDA4BA /* RearrangeArrayPositiveNegativeValue.playground */,
+			);
+			path = ArrayRearrangeBySign;
+			sourceTree = "<group>";
+		};
+		C7381FBE2D78D3CA00FDA4BA /* AlterPositiveNegativeElement */ = {
+			isa = PBXGroup;
+			children = (
+				C7381FBF2D78D3FA00FDA4BA /* PositiveNegativeArrayAlter.playground */,
+			);
+			path = AlterPositiveNegativeElement;
+			sourceTree = "<group>";
+		};
 		C73CAE382D64E16A00F23F2B /* Appdelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +286,8 @@
 		C7E9A36E2D63BCEF00C3F6E4 /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				C7381FBE2D78D3CA00FDA4BA /* AlterPositiveNegativeElement */,
+				C7381FBC2D78CAB500FDA4BA /* ArrayRearrangeBySign */,
 				C7381FB82D77880000FDA4BA /* SumBecomeSingleDigit */,
 				C7381FB62D77820400FDA4BA /* BuyAndSell */,
 				C7381FB42D7769BE00FDA4BA /* arrayinDigitIncrementByOne */,
