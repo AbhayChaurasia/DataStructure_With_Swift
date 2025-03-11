@@ -48,6 +48,7 @@
 		C7381FBB2D78BDF200FDA4BA /* MergeSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergeSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7381FBF2D78D3FA00FDA4BA /* PositiveNegativeArrayAlter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PositiveNegativeArrayAlter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7381FC12D78DBFF00FDA4BA /* InserKelementOccurance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InserKelementOccurance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C73999BC2D809E9B00365FA0 /* StringCharCount.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringCharCount.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlterNetElementPrint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C77B3B132D70DD2F003255CE /* ReverseInGroup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseInGroup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -182,6 +183,22 @@
 			path = InserDuplicateoccurance;
 			sourceTree = "<group>";
 		};
+		C73999B92D80975400365FA0 /* CountChar */ = {
+			isa = PBXGroup;
+			children = (
+				C73999BC2D809E9B00365FA0 /* StringCharCount.playground */,
+			);
+			path = CountChar;
+			sourceTree = "<group>";
+		};
+		C73999BA2D80977700365FA0 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				C73999B92D80975400365FA0 /* CountChar */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		C73CAE382D64E16A00F23F2B /* Appdelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				C7E9A36E2D63BCEF00C3F6E4 /* Array */,
+				C73999BA2D80977700365FA0 /* String */,
 			);
 			path = DataStructure_WithSwift;
 			sourceTree = "<group>";
@@ -286,10 +304,7 @@
 		C7E9A36E2D63BCEF00C3F6E4 /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				C7381FC02D78DBC700FDA4BA /* InserDuplicateoccurance */,
-				C7381FBE2D78D3CA00FDA4BA /* AlterPositiveNegativeElement */,
 				C7381FB82D77880000FDA4BA /* SumBecomeSingleDigit */,
-				C7381FB62D77820400FDA4BA /* BuyAndSell */,
 				C7381FB42D7769BE00FDA4BA /* arrayinDigitIncrementByOne */,
 				C7381FB22D7627BA00FDA4BA /* WaveArray */,
 				C7381FB02D760D8D00FDA4BA /* RotateArray */,
@@ -301,7 +316,10 @@
 				C73CAE3C2D6512CD00F23F2B /* AlterNetElement */,
 				C72B16B22D66236500F0C7AB /* Leader */,
 				C72B16B42D66287800F0C7AB /* SortedArray */,
+				C7381FC02D78DBC700FDA4BA /* InserDuplicateoccurance */,
 				C7381FBA2D78BDC200FDA4BA /* MergeSortedArray */,
+				C7381FBE2D78D3CA00FDA4BA /* AlterPositiveNegativeElement */,
+				C7381FB62D77820400FDA4BA /* BuyAndSell */,
 			);
 			path = Array;
 			sourceTree = "<group>";
