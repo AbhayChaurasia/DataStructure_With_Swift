@@ -49,6 +49,7 @@
 		C7381FBF2D78D3FA00FDA4BA /* PositiveNegativeArrayAlter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PositiveNegativeArrayAlter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7381FC12D78DBFF00FDA4BA /* InserKelementOccurance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InserKelementOccurance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73999BC2D809E9B00365FA0 /* StringCharCount.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringCharCount.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C73999BF2D80A24700365FA0 /* InsertCharInString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InsertCharInString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlterNetElementPrint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C77B3B132D70DD2F003255CE /* ReverseInGroup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseInGroup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -195,8 +196,17 @@
 			isa = PBXGroup;
 			children = (
 				C73999B92D80975400365FA0 /* CountChar */,
+				C73999BE2D80A1F100365FA0 /* InsertChar */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		C73999BE2D80A1F100365FA0 /* InsertChar */ = {
+			isa = PBXGroup;
+			children = (
+				C73999BF2D80A24700365FA0 /* InsertCharInString.playground */,
+			);
+			path = InsertChar;
 			sourceTree = "<group>";
 		};
 		C73CAE382D64E16A00F23F2B /* Appdelegate */ = {
