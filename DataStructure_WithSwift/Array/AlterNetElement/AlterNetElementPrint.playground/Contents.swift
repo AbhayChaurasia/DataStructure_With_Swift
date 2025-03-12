@@ -23,3 +23,4 @@ var printNum = getAlterArrayValue.map {String($0)}.joined(separator: ", ")
 
 print(printNum)
 //Time complexity 0(n)
+// [23, 12, 7, 5]
