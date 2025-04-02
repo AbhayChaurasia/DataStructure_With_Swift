@@ -26,3 +26,5 @@ struct InsertCharInString {
 var a = "abhcety"
 var insert = InsertCharInString().addString(&a, id: 3, char: "d")
 print(insert)
+
+ 

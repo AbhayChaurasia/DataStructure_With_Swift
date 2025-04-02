@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C73B0D8F2D9DAC9000A21E91 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73B0D8E2D9DAC9000A21E91 /* Node.swift */; };
 		C7E9A33C2D63826E00C3F6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9A33B2D63826E00C3F6E4 /* AppDelegate.swift */; };
 		C7E9A33E2D63826E00C3F6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9A33D2D63826E00C3F6E4 /* SceneDelegate.swift */; };
 		C7E9A3402D63826E00C3F6E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9A33F2D63826E00C3F6E4 /* ViewController.swift */; };
@@ -50,6 +51,8 @@
 		C7381FC12D78DBFF00FDA4BA /* InserKelementOccurance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InserKelementOccurance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73999BC2D809E9B00365FA0 /* StringCharCount.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringCharCount.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73999BF2D80A24700365FA0 /* InsertCharInString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InsertCharInString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C73B0D8E2D9DAC9000A21E91 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		C73B0D902D9DAE9F00A21E91 /* NodePlay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NodePlay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3B2D64EE0B00F23F2B /* SecondLargeValue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SecondLargeValue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C73CAE3D2D6512EF00F23F2B /* AlterNetElementPrint.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlterNetElementPrint.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C77B3B132D70DD2F003255CE /* ReverseInGroup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseInGroup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -209,6 +212,15 @@
 			path = InsertChar;
 			sourceTree = "<group>";
 		};
+		C73B0D8D2D9DAC6300A21E91 /* LinkList */ = {
+			isa = PBXGroup;
+			children = (
+				C73B0D8E2D9DAC9000A21E91 /* Node.swift */,
+				C73B0D902D9DAE9F00A21E91 /* NodePlay.playground */,
+			);
+			path = LinkList;
+			sourceTree = "<group>";
+		};
 		C73CAE382D64E16A00F23F2B /* Appdelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +302,7 @@
 			children = (
 				C7E9A36E2D63BCEF00C3F6E4 /* Array */,
 				C73999BA2D80977700365FA0 /* String */,
+				C73B0D8D2D9DAC6300A21E91 /* LinkList */,
 			);
 			path = DataStructure_WithSwift;
 			sourceTree = "<group>";
@@ -474,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E9A3402D63826E00C3F6E4 /* ViewController.swift in Sources */,
+				C73B0D8F2D9DAC9000A21E91 /* Node.swift in Sources */,
 				C7E9A33C2D63826E00C3F6E4 /* AppDelegate.swift in Sources */,
 				C7E9A33E2D63826E00C3F6E4 /* SceneDelegate.swift in Sources */,
 				C7E9A3462D63826E00C3F6E4 /* DataStructure_WithSwift.xcdatamodeld in Sources */,
